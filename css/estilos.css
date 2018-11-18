@@ -1,0 +1,55 @@
+:root{
+    --color_nav: #EF8B52;
+    --color_conteiner:rgba(223, 156, 117, 0.788);
+    --fuente_primaria:'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--fuente_primaria);
+}
+h1,h2 {
+    font-family: var(--fuente_primaria);
+    text-align: center;
+}
+
+ul, li {
+    display: block;
+    padding: 5px;
+    display: -webkit-flex; 
+    display: flex;
+}
+
+.nav {
+    background-color: var(--color_nav);
+    margin-top:-23px;
+    position: fixed;
+    width: 100%;
+}
+
+.navegacion {
+    margin-left: 50px;
+}
+.enlace {
+    color: #f1f1f1;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.conteiner {
+    max-width: 1100px;
+    margin:  0 auto;
+    background-color: var(--color_conteiner);
+    
+}
+.comida1{
+    padding: 30px;
+}
+
+.logo_comida {
+    width: 280px;
+    height: 180px;;
+}
+
+
+
