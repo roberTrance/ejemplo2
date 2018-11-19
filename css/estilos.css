@@ -3,6 +3,12 @@
     --color_conteiner:rgba(223, 156, 117, 0.788);
     --fuente_primaria:'Montserrat', sans-serif;
 }
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 a {
     text-decoration: none;
@@ -15,16 +21,26 @@ h1,h2 {
 
 ul, li {
     display: block;
-    padding: 5px;
     display: -webkit-flex; 
     display: flex;
+}
+.header-prin {
+    margin-top: -21px;
 }
 
 .nav {
     background-color: var(--color_nav);
-    margin-top:-23px;
+    margin:0 auto;
+    position: relative;
     position: fixed;
     width: 100%;
+   
+}
+.nav::after {
+    content: '';
+    display: block;
+    clear: both;
+
 }
 
 .navegacion {
@@ -32,7 +48,7 @@ ul, li {
 }
 .enlace {
     color: #f1f1f1;
-    font-size: 20px;
+    font-size: 15px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -50,6 +66,13 @@ ul, li {
     width: 280px;
     height: 180px;;
 }
+.reservacion {
+    padding: 100px;
+}
+.active {
+    color: green;
+}
+
 
 
 
