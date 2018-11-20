@@ -69,8 +69,8 @@ ul, li {
 .reservacion {
     padding: 100px;
 }
-.active {
-    color: green;
+a:active {
+    color: rgb(29, 41, 206);
 }
 
 

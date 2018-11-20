@@ -1,16 +1,19 @@
 <div class="reservacion" >
-    <form class="formulario" method="post" id="form">
-        <label for="">nombre</label>
-        <input type="text" placeholder="hola" id="no1">
-        <label for="">nombre</label>
-        <input type="text" placeholder="hola" id="no2">
-        <input type="button" onclick="Sumar();" value="Calucular">
-
-    </form>
     
-
+        <div class="campo">
+            <label for="">nombre</label>
+            <input type="text" placeholder="hola" id="nombre">
+        </div>
+        <div class="campo">
+            <label for="">telelfono</label>
+            <input type="tel" placeholder="hola" id="telefono">
+        </div>
+        <div class="campo">
+            <label for="">empresa</label>
+            <input type="text" placeholder="hola" id="empresa">
+        </div>
+        <div class="campo enviar">
+            <input type="hidden" id="accion" value="crear" >
+            <input type="submit" value="Entrar">
+        </div>       
 </div>
-<?php 
-    include 'layout/footer.php';
-     
-?> 

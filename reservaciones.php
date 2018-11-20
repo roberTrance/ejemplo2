@@ -5,10 +5,11 @@
 ?>
 
 <div class="con">
-    <?php 
-        include 'form.php'; 
-    ?>
-    
+    <form  id="usuario" action="#">
+        <?php 
+            include 'form.php'; 
+        ?>
+    </form>
 
 </div>
 <?php 
