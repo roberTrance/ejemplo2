@@ -5,7 +5,7 @@
 ?>
 
 <div class="con">
-    <form  id="usuario" action="#">
+    <form method="post"  id="usuario" action="">
         <?php 
             include 'form.php'; 
         ?>

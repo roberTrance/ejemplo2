@@ -1,19 +1,19 @@
+
 <div class="reservacion" >
     
         <div class="campo">
             <label for="">nombre</label>
-            <input type="text" placeholder="hola" id="nombre">
+            <input type="text" placeholder="hola" name="nombre" id="nombre">
         </div>
         <div class="campo">
             <label for="">telelfono</label>
-            <input type="tel" placeholder="hola" id="telefono">
+            <input type="tel" placeholder="hola" name="telefono" id="telefono">
         </div>
         <div class="campo">
             <label for="">empresa</label>
-            <input type="text" placeholder="hola" id="empresa">
+            <input type="text" placeholder="hola" name="empresa" id="empresa">
         </div>
         <div class="campo enviar">
-            <input type="hidden" id="accion" value="crear" >
-            <input type="submit" value="Entrar">
+            <button type="submit" value="bnt1" name="accion">Guardar</button>
         </div>       
 </div>

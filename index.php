@@ -1,7 +1,6 @@
 <?php 
-     include 'layout/header.php';
-     
-     
+    include 'layout/header.php'; 
+    include 'layout/leerdatos.php';   
 ?>
 <div class="header-prin">
     <div class="nav">
